@@ -620,7 +620,8 @@ img {
   position: absolute;
 }
 
-.modal-close:hover {
+.modal-close:hover,
+.modal-close:focus {
   fill: currentColor;
   border: 1px solid var(--accent-color);
 }
